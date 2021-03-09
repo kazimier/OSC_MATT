@@ -6,16 +6,16 @@
 
 
 
-const char* ssid = "Labyrinthe"; // ssid
-const char* password = "labyrinthe25";// password
-IPAddress ip(192, 168, 10, 4 ); //set static ip
-IPAddress gateway(192, 168, 10, 1); //set getteway
+const char* ssid = "******"; // ssid
+const char* password = "*******";// password
+IPAddress ip(********* ); //set static ip
+IPAddress gateway(*******); //set getteway
 IPAddress subnet(255, 255, 255, 0);//set subnet
  
 
 // A UDP instance to let us send and receive packets over UDP
 WiFiUDP Udp;
-const IPAddress DestIp(192,168,10,2);        // remote IP of the destination PC
+const IPAddress DestIp(*******);        // remote IP of the destination PC
 const unsigned int DestPort = 9001;          // remote port 
 const unsigned int localPort = 8888;        // local port to listen for UDP packets (here's where we send the packets)
 
